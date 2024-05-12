@@ -6,9 +6,9 @@ Spring Boot のチュートリアルとして簡単な REST API を作りまし�
 
 ## hello world を返す API
 
-パス: /hello
-HTTPメソッド: GET
-ステータスコード: 成功時 200
+パス: /hello</br>
+HTTPメソッド: GET</br>
+ステータスコード: 成功時 200</br>
 レスポンスの例:
 ```json
 {
@@ -19,9 +19,9 @@ HTTPメソッド: GET
 
 ## dog の List を返すAPI
 
-パス: /dogs
-HTTPメソッド: GET
-ステータスコード: 成功時 200
+パス: /dogs</br>
+HTTPメソッド: GET</br>
+ステータスコード: 成功時 200</br>
 レスポンスの例:
 ```json
 [
