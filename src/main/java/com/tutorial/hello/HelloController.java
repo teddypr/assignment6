@@ -18,8 +18,8 @@ public class HelloController {
     @GetMapping("/dogs")
     public List<Dog> dogs() {
         List<Dog> dogs = new ArrayList<>();
-        dogs.add(new Dog("Pochi", 3));
-        dogs.add(new Dog("Taro", 6));
+        dogs.add(new Dog("Pochi", 5));
+        dogs.add(new Dog("Taro", 10));
         return dogs;
     }
 }
